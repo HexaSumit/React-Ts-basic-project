@@ -20,7 +20,6 @@ const App = () => {
   ])
   return (
     <>
-      hey
       {products.map((product) => (
         <Card key={product.id} product={product} />
       ))}
